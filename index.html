@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS użycie innerHTML</title>
+    <script>
+        function f1()
+        {
+            document.getElementById("odp1").innerHTML="DZIĘKI ZA PAMIĘĆ";
+        }
+        function f2()
+        {
+            document.getElementById("odp1").innerHTML="HEHEHEHA";
+        }
+    </script>
+</head>
+<body>
+    <h1>Zagadki o infomatykach</h1>
+    <HR>
+    <p1>Jak odpowiada informatyk gdy na urodziny otrzymuje pendrive?</p1>
+    <button onclick=f1()>POKAŻ ODPOWIEDŹ</button>
+    <button onclick=f2()>UKRYJ</button>
+    <div id="odp1"> TU ZOSTANIE WYŚWIETLONA ODPOWIEDŹ</div>
+    <HR>
+
+</body>
+</html>
